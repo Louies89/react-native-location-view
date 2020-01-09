@@ -1,0 +1,91 @@
+{
+  "_from": "react-native-location-view",
+  "_id": "react-native-location-view@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-8WfOPAaviHa4h2yJLC6TKxnuzMBkTU0fgYA+qA1Ho2TKvS3cFmia/6koG0y2FtRXKsQ0KADxteZNJTpM4jVzlA==",
+  "_location": "/react-native-location-view",
+  "_phantomChildren": {
+    "loose-envify": "1.4.0",
+    "object-assign": "4.1.1",
+    "react-is": "16.8.5"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-location-view",
+    "name": "react-native-location-view",
+    "escapedName": "react-native-location-view",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-location-view/-/react-native-location-view-0.2.1.tgz",
+  "_shasum": "8dead6f83a95f497591e8c74313e45084c045a32",
+  "_spec": "react-native-location-view",
+  "_where": "C:\\Users\\A252898\\Documents\\2ndStart\\ReactNative\\npmInstall",
+  "author": {
+    "name": "Hunaid Hassan",
+    "email": "hhunaid@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/superapp/react-native-location-view"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "prop-types": "^15.6.0",
+    "react-native-simple-events": "^1.0.1"
+  },
+  "deprecated": false,
+  "description": "A package to help pick user location with autocomplete and current location support. Uses react-native-maps",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "files": [
+    "index.js",
+    "src/*",
+    "utils/*"
+  ],
+  "homepage": "https://github.com/superapp/react-native-location-view#readme",
+  "keywords": [
+    "autocomplete",
+    "google",
+    "places",
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "location",
+    "location-picker"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-location-view",
+  "peerDependencies": {
+    "react-native": ">= 0.50",
+    "react-native-maps": ">= 0.19.0",
+    "react-native-vector-icons": "^4.4.3"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superapp/react-native-location-view.git"
+  },
+  "scripts": {
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "eslint --fix",
+    "postversion": "git push && git push --tags",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "npm run format && git add -A src"
+  },
+  "version": "0.2.1"
+}
